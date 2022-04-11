@@ -1,0 +1,169 @@
+body{
+    background-image: url(../assets/matrix-black.jpg);
+}
+
+#container{
+
+    padding: 40px;
+    background-color: rgb(8, 8, 8);
+    /* background-color: #FFFFFF; */
+    margin: auto;   
+    width: 60%;
+    /* width: 50vw; */
+    height: 900px;
+    
+    /* overflow: hidden; */
+}
+
+
+#cardLeft{
+    box-sizing: border-box;
+    float: left;
+    height: 100%;
+    width: 35%;
+    margin: 10px;
+    /* background-color: blue; */
+   
+}
+
+#title{
+    color: #FFFFFF;
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#profession{
+    margin-top: 3px;
+    font-family: sans-serif;
+    color: #bbb9b9;
+    letter-spacing: 3px;
+}
+
+#perfil{
+    margin-top: 20px;
+    border-style: solid;
+    border-radius: 100px;
+    border-width: 5px;
+    border-color: #FFFFFF;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section{
+    letter-spacing: 2px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+    border-bottom-width: 1px ;
+    border-bottom-style: solid;
+    border-bottom-color: #bbb9b933;
+    margin-bottom: 30px;
+
+}
+
+.text{
+    color: #bbb9b9;
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.skills{
+    /* text-align: center; */
+}
+
+.circle{
+    width: 75px;
+    height: 75px;
+    border-color: #bbb9b933;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 100px;
+    margin-bottom: 6px;
+}
+
+.circleImage{
+    padding-top: 15px;
+    margin:auto;
+    width: 50px;
+}
+
+#cardRight {
+    float: right;
+    height: 100%;
+    width: 60%;
+    box-sizing: border-box;
+
+}
+
+.information{
+    width: 90%;
+    height: 40px;
+    border-bottom-width: 1px ;
+    border-bottom-style: solid;
+    border-bottom-color: #bbb9b933;
+    
+}
+
+.informationImage{
+    float: left;
+    width: 30px;
+    margin-right: 20px;
+    
+}
+
+.informationText{   
+    padding: 6px;
+    color: #bbb9b9;
+    
+}
+
+.descriptionTitle{
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: sans-serif;
+    margin:2px
+}
+
+.date{
+    margin: 2px;
+    color: #c3c4c47c;
+    font-size: 17px;
+}
+
+#socialmedia{
+    padding-top: 10px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    /* background-color: violet; */
+    
+}
+
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+@media  (max-width: 1700px){
+    #container{
+        height: 900px;
+        width: 80%;
+
+    }
+
+    #cardLeft{
+        width: 50%;
+    }
+
+    #cardRight{
+        width: 40%;
+    }
+}
